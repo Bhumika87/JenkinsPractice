@@ -11,6 +11,7 @@
 	<groupId>com.SignupFormJenkins</groupId>
 	<artifactId>Signup-Form-Jenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Signup-Form-Jenkins</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -56,6 +57,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-docker</finalName>
+
 	</build>
 
 </project>
