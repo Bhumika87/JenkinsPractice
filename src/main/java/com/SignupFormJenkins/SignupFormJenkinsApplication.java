@@ -9,6 +9,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
+@ComponentScan
 public class SignupFormJenkinsApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
